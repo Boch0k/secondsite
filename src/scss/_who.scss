@@ -1,0 +1,103 @@
+.who {
+    padding-top: 71px;
+    padding-bottom: 81px;
+    background: #0062FF;
+
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        margin-bottom: 18px;
+        color: #FFFFFF;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 611px;
+        margin: 0 auto;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex: 0 0 45%;
+        flex-wrap: wrap;
+        gap: 48px;
+        margin-top: 64px;
+        
+    }
+
+    &__card {
+        display: flex;
+        gap: 34px;
+        align-items: center;
+        flex: 0 0 45%;
+        @media screen and (max-width: $breakpoint992) { 
+            gap: 25px;
+        }
+        @media screen and (max-width: $breakpoint768) { 
+            flex: 0 0 100%;
+        }
+           
+    }
+    &__btn {
+        background: white;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #2203E4;
+        padding: 10px 16px;
+        border: 1px solid #2203E4;
+        display: flex;
+        margin: 0 auto;
+        transition: all 0.2s ease-in;
+        margin-top: 64px;
+    }
+    &__btn:hover {
+        font-size: 18px;
+        border: 1px solid white;
+        
+
+    }
+}
+.container {
+}
+.card {
+
+    &__text {
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        
+        margin-bottom: 18px;
+        color: #FFFFFF;
+        @media screen and (max-width: $breakpoint992) { 
+            font-size: 30px;
+        }
+    }
+
+    &__subtitle {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        @media screen and (max-width: $breakpoint992) { 
+            font-size: 14px;   
+        }
+    }
+}
+
+
+
+

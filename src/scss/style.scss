@@ -4,7 +4,11 @@
 @import './global';
 
 // Sections or Pages SCSS-files imports
-// @import './header';
+@import './header';
+@import './mainscreen';
+@import './authors';
+@import './who';
+@import './demo';
 // @import './footer';
 
 // Libs

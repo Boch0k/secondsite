@@ -1,0 +1,127 @@
+.authors {
+    margin-top: 150px;
+    margin-bottom: 143px;
+
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        color: #000000;
+        text-align: center;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #575757;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+
+    &__wrapper {
+        display: flex;
+        gap: 34px;
+        align-items: center;
+    }
+
+    &__bio {
+        max-width: 645px;
+    }
+
+    &__social {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 20px;
+    }
+    &__social img{
+        cursor: pointer;
+    }
+
+    &__another {
+        margin-left: 100px;
+    }
+}
+.container {
+}
+.bio {
+    
+    &__name {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 32px;
+        color: #000000;
+    }
+
+    &__position {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        color: #575757;
+        margin-bottom: 12px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #575757;
+        margin-bottom: 24px;
+    }
+}
+.another {
+
+    &__paragraph {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        color: #DEA405;
+    }
+
+    &__programmer {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFBE0B;
+    }
+
+    &__header {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 32px;
+        color: #000000;
+    }
+
+    &__position {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        color: #575757;
+    }
+
+    &__action {
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        color: #DEA405;
+
+    }
+
+    &__analyst {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFBE0B;
+    }
+}
