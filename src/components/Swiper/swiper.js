@@ -16,7 +16,7 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
 
-  //   // Responsive breakpoints
+  //   // Responsive breakpoints 
   //   breakpoints: {
   //   // when window width is >= 320px
   //   320: {

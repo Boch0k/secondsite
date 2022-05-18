@@ -24,6 +24,7 @@
     &__wrapper {
         display: flex;
         margin-top: 44px;
+        gap: 20px;
     }
 
     &__block {
@@ -48,6 +49,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
+        max-width: 611px;
         line-height: 19px;
         text-align: center;
         color: #575757;

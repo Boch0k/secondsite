@@ -1,0 +1,84 @@
+.opinions {
+    padding-top: 67px;
+    padding-bottom: 67px;
+    background: #FFBE0B;
+
+
+    &__card {
+        max-width: 702px;
+        padding: 25px 50px;
+        margin: 0 auto;
+        background: #F3F3F3;
+        box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+    }
+}
+.container {
+}
+.opinios {
+
+    &__title {
+        margin-bottom: 12px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        color: #000000;
+        text-align: center;
+    }
+
+    &__subtitle {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #575757;
+    
+        max-width: 611px;
+        margin: 0 auto;
+        margin-bottom: 42px;
+    }
+
+    &__card-wrapper {
+        display: flex;
+        align-items: baseline;
+    }
+
+    &__card-name {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 120%;
+        color: #000000;
+        margin-right: 8px;
+    }
+
+    &__card-positon {    
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 120%;
+        color: #000000;
+    }
+
+
+    &__card-subtext {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        color: #575757;
+    }
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.opinitos {
+
+    &__card-text {
+    }
+}
